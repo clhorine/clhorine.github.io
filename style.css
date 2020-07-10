@@ -1,0 +1,11 @@
+.temp{
+	font-family:'Arial', sans-serif;
+	font-size:6vw;
+	font-weight: bold;
+	position:absolute;
+	left:25%;
+	top:30%;
+}
+.temp:hover{
+	filter:invert(1);
+}
