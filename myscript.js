@@ -12,7 +12,7 @@ $(document).ready(function(){
             defaults: {
                 //you can change these defaults to your own preferences.
                 path: 'homepage/', //change this to the path of your images
-                myImages: ['textboxad.jpg', 'uum.jpg', ] //put image names in this bracket. ex: 'harold.jpg', 'maude.jpg', 'etc'
+                myImages: ['textboxad.jpg', 'uum.jpg', 'fundraise.gif', ] //put image names in this bracket. ex: 'harold.jpg', 'maude.jpg', 'etc'
             }
         };
         
