@@ -37,13 +37,27 @@ button{
     outline:0;
 }
 
-
 .duotone {
+    filter: sepia(90%) hue-rotate(143deg) saturate(100%) invert(100%);
+    -webkit-filter: sepia(90%) hue-rotate(143deg) saturate(100%) invert(100%);
+    -moz-filter: sepia(90%) hue-rotate(143deg) saturate(100%) invert(100%);
+
+}
+.moreduo {
+    filter: sepia(90%) hue-rotate(143deg) saturate(200%) invert(100%);
+    -webkit-filter: sepia(90%) hue-rotate(143deg) saturate(200%) invert(100%);
+    -moz-filter: sepia(90%) hue-rotate(143deg) saturate(200%) invert(100%);
+
+
+}
+.mostduo {
     filter: sepia(90%) hue-rotate(143deg) saturate(286%) invert(100%);
     -webkit-filter: sepia(90%) hue-rotate(143deg) saturate(286%) invert(100%);
     -moz-filter: sepia(90%) hue-rotate(143deg) saturate(286%) invert(100%);
 
+
 }
+
 
 p{
   margin:0;

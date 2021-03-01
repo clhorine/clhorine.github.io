@@ -12,16 +12,21 @@ function randombg1(){
                  "url('angryimages/angry/angry09.jpg')",
                  "url('angryimages/angry/angry10.jpg')"];
   document.getElementById("main").style.backgroundImage=bigSize[random];
+  
   var element = document.getElementById("angry");
   element.classList.remove("hidden");
-
   var element = document.getElementById("angriest");
   element.classList.add("hidden");
-
   var element = document.getElementById("angrier");
   element.classList.add("hidden");
+  
   var element = document.getElementById("main");
   element.classList.add("duotone");
+  var element = document.getElementById("main");
+  element.classList.remove("moreduo");
+  var element = document.getElementById("main");
+  element.classList.remove("mostduo");
+ 
  
 }
 
@@ -41,18 +46,19 @@ function randombg2(){
   document.getElementById("main").style.backgroundImage=bigSize[random];
   var element = document.getElementById("angrier");
   element.classList.remove("hidden");
-
   var element = document.getElementById("angry");
   element.classList.add("hidden");
-
   var element = document.getElementById("angriest");
   element.classList.add("hidden");
+
   var element = document.getElementById("main");
-  element.classList.add("duotone");
+  element.classList.remove("duotone");
+  var element = document.getElementById("main");
+  element.classList.remove("mostduo");
+  var element = document.getElementById("main");
+  element.classList.add("moreduo");
   
 
-  
-  
 }
 
 function randombg3(){
@@ -70,15 +76,18 @@ function randombg3(){
   document.getElementById("main").style.backgroundImage=bigSize[random];
   var element = document.getElementById("angriest");
   element.classList.remove("hidden");
-
   var element = document.getElementById("angry");
   element.classList.add("hidden");
-
   var element = document.getElementById("angrier");
   element.classList.add("hidden");
-  var element = document.getElementById("main");
-  element.classList.add("duotone");
 
- 
+  var element = document.getElementById("main");
+  element.classList.remove("duotone");
+  var element = document.getElementById("main");
+  element.classList.remove("moreduo");
+  var element = document.getElementById("main");
+  element.classList.add("mostduo");
+  
+
 }
 

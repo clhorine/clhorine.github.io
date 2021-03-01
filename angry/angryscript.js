@@ -14,14 +14,16 @@ function randombg1(){
   document.getElementById("main").style.backgroundImage=bigSize[random];
   var element = document.getElementById("angry");
   element.classList.remove("hidden");
-
   var element = document.getElementById("angriest");
   element.classList.add("hidden");
-
   var element = document.getElementById("angrier");
   element.classList.add("hidden");
   var element = document.getElementById("main");
   element.classList.add("duotone");
+  var element = document.getElementById("main");
+  element.classList.remove("duotoner");
+  var element = document.getElementById("main");
+  element.classList.remove("duotonest");
  
 }
 
@@ -48,7 +50,11 @@ function randombg2(){
   var element = document.getElementById("angriest");
   element.classList.add("hidden");
   var element = document.getElementById("main");
-  element.classList.add("duotone");
+  element.classList.add("duotoner");
+  var element = document.getElementById("main");
+  element.classList.remove("duotonest");
+  var element = document.getElementById("main");
+  element.classList.remove("duotone");
   
 
   
@@ -77,7 +83,11 @@ function randombg3(){
   var element = document.getElementById("angrier");
   element.classList.add("hidden");
   var element = document.getElementById("main");
-  element.classList.add("duotone");
+  element.classList.add("duotonest");
+   var element = document.getElementById("main");
+  element.classList.remove("duotoner");
+  var element = document.getElementById("main");
+  element.classList.remove("duotone");
 
  
 }
