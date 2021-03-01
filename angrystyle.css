@@ -39,7 +39,7 @@ button{
 
 
 .duotone {
-    filter: opacity(20%) sepia(70%) hue-rotate(100deg) saturate(100%) invert(80%);
+    filter: sepia(70%) hue-rotate(100deg) saturate(100%) invert(80%);
    /* -webkit-filter: sepia(70%) hue-rotate(100deg) saturate(200%) invert(80%);
     -moz-filter: sepia(70%) hue-rotate(100deg) saturate(200%) invert(80%);*/
 }
