@@ -37,22 +37,21 @@ button{
     outline:0;
 }
 
-/*whygod*/
 
 .duotone {
-    filter: sepia(70%) hue-rotate(100deg) saturate(150%) invert(80%);
+    filter: sepia(90%) hue-rotate(130deg) saturate(170%) invert(85%);
    /* -webkit-filter: sepia(70%) hue-rotate(100deg) saturate(200%) invert(80%);
     -moz-filter: sepia(70%) hue-rotate(100deg) saturate(200%) invert(80%);*/
 }
 .duotoner {
-    filter: sepia(90%) hue-rotate(143deg) saturate(206%) invert(100%);
+    filter: sepia(90%) hue-rotate(136deg) saturate(246%) invert(100%);
     -webkit-filter: sepia(90%) hue-rotate(143deg) saturate(286%) invert(100%);
     -moz-filter: sepia(90%) hue-rotate(143deg) saturate(286%) invert(100%);
-    opacity:0.5;
+    opacity:0.65;
 
 }
 .duotonest {
-    filter: sepia(90%) hue-rotate(143deg) saturate(286%) invert(100%);
+    filter: sepia(90%) hue-rotate(143deg) saturate(300%) invert(100%);
     -webkit-filter: sepia(90%) hue-rotate(143deg) saturate(286%) invert(100%);
     -moz-filter: sepia(90%) hue-rotate(143deg) saturate(286%) invert(100%);
     opacity:0.8;
